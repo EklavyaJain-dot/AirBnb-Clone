@@ -1,0 +1,156 @@
+*{
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+.placetostay{
+    position: relative;
+    left:800px;
+    bottom: 1130px;
+    color: white;
+}
+
+.experience{
+    position: relative;
+    left:960px;
+    bottom: 1150px;
+    color: white;
+}
+
+.online-experience{
+    position: relative;
+    left:1100px;
+    bottom: 1170px;
+    color: white;
+}
+
+.beacome-a-host{
+    position: relative;
+    left:1600px;
+    bottom: 1180px;
+    color: white;
+}
+
+.profile-icon{
+    position: relative;
+    left: 1780px;
+    bottom: 1205px;
+    border-radius: 100%;
+}
+
+.background{
+    position: relative;
+    bottom: 120px;
+}
+
+.nav-bar{
+    width: 800px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    bottom: 1160px;
+    left: 650px;
+    border-radius: 30px;
+    overflow-y: hidden;
+}
+
+.location{
+    position: relative;
+    top:15px;
+    left: 50px;
+}
+
+.check-in{
+    position: relative;
+    left: 250px;
+    bottom: 10px;
+}
+
+.check-out{
+    position: relative;
+    left: 450px;
+    bottom: 30px;
+}
+
+.geust{
+    position: relative;
+    left: 650px;
+    bottom: 50px;
+}
+
+.search{
+    position: relative;
+    bottom: 85px;
+    left: 740px;
+    border-radius: 100%;
+}
+
+.flexible-btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(255, 0, 43);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.flexible-btn:hover{
+    background-color: rgb(0, 255, 42);
+}
+
+.delhi{
+    position: relative;
+    left:200px;
+    border-radius: 5px;
+}
+
+.new-delhi{
+    position: relative;
+    left:500px;
+    border-radius: 5px;
+}
+
+.gurugram{
+    position: relative;
+    left: 800px;
+    border-radius: 5px;
+}
+
+.jaipur{
+    position: relative;
+    left: 1200px;
+    border-radius: 5px;
+}
+
+.outdoor{
+    position: relative;
+    left: 200px;
+    border-radius: 20px;
+}
+
+.unique{
+    position: relative;
+    left: 250px;
+    border-radius: 20px;
+}
+
+.entier_homes{
+    position: relative;
+    left: 300px;
+    border-radius: 20px;
+}
+
+.pets_allowed{
+    position: relative;
+    left: 350px;
+    border-radius: 20px;
+}
+
+.form{
+    width: 600px;
+    height: 800px;
+    position: relative;
+    left: 750px;
+    background-color: aliceblue;
+}

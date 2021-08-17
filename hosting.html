@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host your Home!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center><h1>Host Your Home</h1></center>
+    <center><h1>And Start Earning Revenus!</h1></center>
+
+    <br><br><br><br>
+
+<form onsubmit="sendmessage()">
+
+    <div class="form">
+
+       <center> <h1>Hosting Form</h1> </center>
+
+<br><br>
+
+<input type="text" placeholder="Your Name" style="width:400px;height: 50px;position: relative;left: 50px;top:50px" id="name">
+<input type="number" placeholder="No. of rooms available" style="width: 400px; height: 50px;position: relative; left: 50px; top:100px" id="roomnumber">
+<input type="number" placeholder="No. of Almihra available" style="width: 400px; height: 50px;position: relative; left: 50px; top:150px" id="almihranumber">
+<input type="address" placeholder="Your Address" style="width: 400px; height: 50px;position: relative; left: 50px; top:200px" id="address">
+
+<input type="submit" style="position: relative;top:300px;right: 200px;">
+
+    </div>
+
+  </form>
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+
+<script>
+  
+function sendmessage(){
+  
+   const dataname = document.getElementById("name").value;
+   const dataroomnumber = document.getElementById("roomnuber").value;
+   const dataalhmiranumber = document.getElementById("almihranumber").value;
+   const dataaddress = document.getElementById("address").value;
+
+   firebase.database().ref("dataname").push().set({
+     "Name": name,
+     "Room Number": dataroomnumber,
+     "Alhimira Nummber": dataalhmiranumber,
+     "Address": dataaddress
+   })
+
+  //prevent the message from sending
+  return false;
+}
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyDtn8SL37GYA-KTIgLjzN2OO9wBAg1dCE8",
+    authDomain: "airbnb-clone-6df77.firebaseapp.com",
+    projectId: "airbnb-clone-6df77",
+    storageBucket: "airbnb-clone-6df77.appspot.com",
+    messagingSenderId: "871220498184",
+    appId: "1:871220498184:web:b6b060624d17ccb95a66bd"
+  };
+  firebase.initializeApp(firebaseConfig);
+
+  console.log(firebase)
+</script>
+
+</body>
+</html>
